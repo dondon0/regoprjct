@@ -1,0 +1,152 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+#hero {
+  background-color: #e1f5f5;
+}
+
+nav {
+  font-weight: 700;
+  padding: 25px 60px 25px 100px;
+  display: inline-block;
+}
+
+.navbar-custom {
+  background-color: white;
+}
+
+a.navbar-brand {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.navbar-nav > li {
+  margin-right: 15px;
+}
+
+.btn-secondary {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 3em;
+  color: #2e5d62;
+  background-color: white;
+  margin-right: 15px;
+  padding: 7px 30px;
+}
+
+.btn-secondary:hover {
+  background-color: #2e5d62;
+  color: white;
+}
+
+.row .col-lg-6 h1 {
+  font-size: 64px;
+}
+
+.row .col-lg-6 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.title-image {
+  margin-left: 100px;
+}
+
+.banner .title {
+  padding: 130px 50px 50px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.but {
+  background-color: #2e5d62;
+  color: white;
+  border-radius: 5em;
+  padding: 10px 30px;
+}
+
+.but:hover {
+  background-color: white;
+  color: #2e5d62;
+  border: 1px solid #2e5d62;
+}
+
+.product-box {
+  background-color: #e1f5f5;
+  font-weight: 400;
+  color: grey;
+  padding: 30px;
+  padding-bottom: 0;
+  border-radius: 2.5em;
+}
+
+.product-box h1 {
+  font-weight: 400;
+  color: black;
+  font-size: 35px;
+}
+
+.product-box span {
+  font-weight: 700;
+}
+
+.product-box img {
+  width: 170px;
+  margin-top: -50%;
+}
+
+.discover {
+  color: #2e5d62;
+}
+
+#monthly-deals {
+  height: 100vh;
+}
+
+#monthly-deals .container {
+  width: 100%;
+  margin-top: 5%;
+}
+
+#monthly-deals .container .row {
+  margin-top: 30px;
+}
+
+.container h2 {
+  font-size: 42px;
+  padding: 20px 0px;
+  text-decoration: underline #2e5d62 10px;
+}
+
+.container h2 {
+  font-size: 42px;
+  padding: 20px 0px;
+  text-decoration: underline #2e5d62 10px;
+}
+
+.product-top img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.product-bottom .fas,
+.product-bottom .far {
+  color: #fdcc0d;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.product-bottom .strikethrough {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.product-bottom .row .col-4,
+.product-bottom .row .col-8 {
+  padding: 0;
+}
