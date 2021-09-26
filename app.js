@@ -30,35 +30,7 @@ app.use(cookieParser());
 
 app.set('view engine', 'hbs');
 
-let coreApi = new midtransClient.CoreApi({
-    isProduction : false,
-    serverKey : process.env.MD_SK,
-    clientKey : process.env.MD_CK
-});
 
-let snap = new midtransClient.Snap({
-    isProduction : false,
-    serverKey : process.env.MD_SK,
-    clientKey : process.env.MD_CK
-});
-
-
-let parameter = {
-    "transaction_details": {
-        "order_id": "YOUR-ORDERID-123456",
-        "gross_amount": 10000
-    },
-    "credit_card":{
-        "secure" : true
-    },
-    "customer_details": {
-        "first_name": "budi",
-        "last_name": "pratama",
-        "email": "budi.pra@example.com",
-        "phone": "08111222333"
-    }
-};
- 
 
 hbs.registerHelper('if_eq', function(a, b, opts) {
     if(a == b)
